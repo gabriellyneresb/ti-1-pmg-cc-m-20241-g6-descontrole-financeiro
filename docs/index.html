@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="icon">
+  <title>Trabalho Interdisciplinar - Documentação</title>
+  <meta name="description" content="Documentação do projeto da disciplina de Trabalho Interdisciplinar">
+  <meta name="author" content="Rommel Carneiro (WebTech)">
+
+  <!-- Stylesheet ========================= -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css">
+  <!-- Custom Stylesheet -->
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Document Wrapper  =============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button type="button" id="sidebarCollapse" class="navbar-toggler d-block d-md-none"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- (DE$)_CONTROLE -->
+          <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png"
+              alt="iDocs Template"> </a>
+          <span class="text-2 ml-2">v2.0</span>
+          <!-- Logo End -->
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Content ============================ -->
+    <main id="content">
+
+      <!-- Sidebar Navigation	============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#ti_intro">Introdução</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_contexto">Contexto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ti_concepcao">Concepção</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_processo_dt">Design Thinking</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_especificacoes">Especificações</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_projeto_interfaces">Projeto de Interfaces</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_metodologia">Metodologia</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_ferramentas">Ferramentas</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_gestao_projeto">Gestao do Projeto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_controle_versao">Controle de Versão</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_solucao">Solução</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_video">Vídeo do Projeto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_funcionalidades">Funcionalidades</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_estruturas_dados">Estruturas de Dados</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_modulos_apis">Módulos e APIs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ti_referencias">Referências</a></li>
+        </ul>
+      </div>
+
+      <!-- Docs Content ============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Introdução ============================ -->
+          <section id="ti_intro">
+            <h2>Introdução</h2>
+            <p class="lead">Descontrole financeiro, integrantes: Gabrielly Neres, Guilherme Ribeiro, Kayky Gabriel e Otávio Augusto.
+            </p>
+
+            <section id="ti_intro_info">
+              <h4>Informações Gerais</h4>
+              <div class="row">
+                <div class="col-12">
+                  <ul class="list-unstyled">
+                    <li><strong>Projeto:</strong> [(De$)_controle]</li>
+                    <li><strong>Repositório GitHub:</strong> <a href="https://github.com/WebTech-PUC-Minas/ti1-template">Template Trabalho Interdisciplinar</a>
+                    </li>
+                    <li><strong>Membros da equipe:</strong>
+                      <ul>
+                        <li><a href="https://github.com/galaxy76709">Kayky Gabriel</a><span class="exemplo"></span></li>
+                        <li><a href="https://github.com/OTAVIO019">Otavio Augusto</a></li>
+                        <li><a href="https://github.com/gabriellyneresb">Gabrielly Neres Barbara</a></li>
+                        <li><a href="https://github.com/Guichuu">Guilherme Ribeiro</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Contexto ============================ -->
+          <section id="ti_contexto">
+            <h2>Contexto</h2>
+            <p class="lead">Detalhes sobre o espaço de problema, justificativas e os objetivos do projeto.</p>
+            <section>
+              <h5>Problema
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseProblema">Info</button></h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseProblema">
+            
+              <p> O descontrole financeiro é um problema amplamente difundido em nossa sociedade, afetando especialmente jovens e jovens adultos. Esse problema muitas vezes é desencadeado por impulsividade e falta de controle sobre os gastos. Para abordar essa questão, uma aplicação pode ser desenvolvida para integrar-se às contas bancárias dos usuários, oferecendo um gerenciamento mais eficaz dos gastos. Essa solução visa fornecer ferramentas e insights para ajudar os usuários a entenderem melhor seus padrões de consumo e a tomarem decisões financeiras mais conscientes.    </div></p>
+            </section>
+
+            <section>
+              <h5>Objetivos
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseObjetivos">Info</button></h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseObjetivos">
+              
+              <p>O objetivo geral deste trabalho é desenvolver um software para solucionar o problema do descontrole financeiro, oferecendo aos usuários uma ferramenta eficaz para gerenciar seus gastos de forma mais consciente e responsável. Para alcançar esse objetivo, são estabelecidos os seguintes objetivos específicos:
+
+                 <P> 1. Implementar um sistema de monitoramento de gastos: Desenvolver algoritmos e funcionalidades que permitam ao software acompanhar os gastos dos usuários em tempo real, fornecendo atualizações regulares sobre o saldo disponível e alertas quando os gastos ultrapassarem determinados limites pré-definidos.</P>
+                
+                 <p> 2. Integrar um mecanismo de controle de gastos: Criar uma funcionalidade que permita ao usuário definir metas de gastos mensais e estabelecer limites para categorias específicas de despesas. Quando os gastos se aproximarem desses limites, o software deverá gerar alertas visuais ou pop-ups para notificar o usuário e, se necessário, bloquear temporariamente novas transações até que o problema seja resolvido.
+                Esses objetivos específicos visam proporcionar aos usuários uma experiência intuitiva e eficaz no controle de suas finanças pessoais, ajudando-os a identificar e corrigir padrões de gastos problemáticos antes que se tornem sérios problemas financeiros </P></p></div>
+            </section>
+
+            <section>
+              <h5>Justificativa
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseJustificativa">Info</button></h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseJustificativa">
+                
+             
+              <p><p>A motivação para trabalhar com esta aplicação surge da compreensão das profundas consequências do descontrole financeiro na vida das pessoas, especialmente dos jovens e jovens adultos. Uma das principais causas desse descontrole é o impulso gerado pela ansiedade, obsessão e falsa necessidade de consumir, muitas vezes associados a gatilhos emocionais relacionados a experiências passadas de privação ou restrição financeira.</p>
+
+                <p>Ao escolher os objetivos específicos, levamos em consideração a necessidade de abordar esses gatilhos emocionais e comportamentais que levam ao descontrole financeiro. O primeiro objetivo de implementar um sistema de monitoramento de gastos permitirá aos usuários uma visão clara e atualizada de seus hábitos de consumo, ajudando-os a identificar padrões problemáticos de gastos.</p>
+                
+                <p>O segundo objetivo de integrar um mecanismo de controle de gastos visa oferecer aos usuários uma ferramenta proativa para lidar com esses impulsos emocionais, permitindo-lhes estabelecer limites claros para seus gastos e receber alertas imediatos quando estiverem se aproximando desses limites.</p>
+                
+                <p> Além disso, o uso de questionários, entrevistas e dados estatísticos pode fornecer insights valiosos sobre os comportamentos financeiros dos usuários, ajudando-nos a adaptar melhor a aplicação às suas necessidades específicas e aprimorar sua eficácia na promoção de hábitos financeiros saudáveis. </p></p> </div>
+            </section>
+
+            <section>
+              <h5>Público-alvo
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapsePublico">Info</button></h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapsePublico">
+                        
+              <p>
+                1. Jovens em transição para a vida adulta: Este grupo inclui indivíduos que recentemente começaram a ter acesso ao seu próprio dinheiro e liberdade financeira, muitas vezes sem uma educação financeira adequada. Eles podem enfrentar desafios ao lidar com essa nova responsabilidade e podem ser mais propensos a comportamentos impulsivos de gastos.
+                
+                2. Pessoas com falta de controle financeiro abusivo: Esta categoria engloba aqueles que enfrentam sérios problemas de descontrole financeiro, o que pode representar um perigo para sua saúde financeira e bem-estar geral. Eles podem estar em busca de soluções eficazes para lidar com seus hábitos de gastos problemáticos e necessitam de uma abordagem mais direta e personalizada.
+                
+                3. Indivíduos que não sabem gerir seu dinheiro devido à impulsividade: Este grupo abrange pessoas de todas as idades que têm dificuldade em gerenciar seu dinheiro devido a comportamentos impulsivos de gastos. Eles podem não ter uma compreensão clara de seus hábitos de consumo ou da importância do controle financeiro, mas estão abertos a ferramentas e recursos que os ajudem a melhorar sua situação financeira.</p></div>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Concepção ============================ -->
+          <section id="ti_concepcao">
+            <h2>Concepção (Design Thinking)</h2>
+            <p class="lead">Detalhes do processo de discovery do projeto.
+            <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseConcepcao">Info</button></p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseConcepcao">
+              <p>O processo de descoberta começou com entrevistas com jovens adultos de 18 a 25 anos, revelando que muitos enfrentam problemas financeiros devido a um histórico de restrição financeira na infância. Identificamos o descontrole financeiro como um problema central, causado pela obsessão em gastar sem considerar as consequências. Nosso objetivo é desenvolver uma aplicação que ajude os usuários a controlar impulsos de gastos, promovendo hábitos financeiros saudáveis. A proposta de solução inclui um aplicativo móvel com recursos de monitoramento de gastos, alertas de gastos excessivos e controle de orçamento.  </p>
+            </div>
+
+            <section id="ti_processo_dt">
+              <h4>Processo de Design Thinking</h4>
+              <p>O arquivo que se segue apresenta o resultado desse processo.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="SPRINT 1 - PROCESSO DE DESING THINKING.PDF">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseProcesso">
+                <p>Apresente o processo de Design Thinking realizado pelo grupo e documentado por meio do software Miro. No documento apresentado, devem ser incluídos: (1) a matriz CSD, (2) o mapa de stakeholders, (3) as personas, (4) as respectivas propostas de valor e (5) o processo de ideação identificando as ideias levantadas e sua priorização.</p>
+              </div>
+              <object data="assets/files/processo-dt.pdf" type="application/pdf" width="100%" height="500px">
+                <p>Não foi possível apresentar o arquivo PDF. Faça o download e abra no seu computador: <a href="/assets/files/processo-dt.pdf">Download</a></p>
+              </object>
+            </section>
+
+            <section id="ti_especificacoes">
+              <h4>Especificações do Projeto</h4>
+              <p>Documentação das especificações do projeto.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseEspecificacao">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseEspecificacao">
+                <p>Apresente as especificações do projeto, incluindo as histórias de usuário e os requisitos funcionais e não funcionais.</p>
+              </div>
+
+              <section>
+                <h5>Histórias de Usuários</h5>
+                <p>Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseHistorias">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseHistorias">
+                  <p>Julia: Julia tem 18 anos, é recém formada no ensino médio, nasceu em uma cidade grande, onde morou durante toda a vida em um bairro suburbano com seus pais e irmãos. Cursou todo o ensino básico em uma escola pública local. Começou a trabalhar aos 16 anos para ajudar em casa. Ao se formar não conseguiu ingressar no ensino superior, pois devido a necessidade de trabalhar em tempo intregral e o fato de não ter sido aprovada em nenhuma universidade pública, lhe falta tempo e condições financeiras para realizar esse sonho. Por causa de algumas privações sofridas na infância, Julia não consegue controlar seus impulsos de gastos, tem a necessidade de gastar seu dinheiro suprindo anseios antes não realizados. Além disso, devido ao seu hobby que são as redes sociais, sofre uma grande influência das mídias para compras. A persona possui em seus traços de personalidade impulsividade, carisma, uma boa comunicação. Sofre com ansiedade, o que pode ser contabilizado como um fator potencializador de gastos.</p>
+                <p> Pedro: Pedro é tem 21 anos, é estudante universitário, nasceu em uma cidade grande, mora em um bairro residencial. Teve acesso a uma educação de qualidade, começou a trabalhar aos 19 anos para comprar as próprias coisas, não possui porém a responsabilidade de arcar com despesas domésticas. Pedro sofre uma fortissíma influência das mídias digitais, que são suas maiores influenciadoras para o gasto indiscriminado. Além disso, gasta muito com fast food, até 4 vezes na semana. Seu maior sonho é ter a própria casa e o que o impede de realizá-lo é a forma como gerencia suas finanças. Seu hobby é passar tempo nas redes sociais.</p>
+                <p>João: João tem 23 anos, é estudante universitário, nasceu no estado de São Paulo e por volta dos 15 anos se mudou para Minas Gerais, onde passou a residir na capital. Começou a trabalhar de forma autonôma aos 18 anos para pagar a faculdade e seus lazeres. É um jovem comunicativo, carismático e tem muitos amigos. Seus hobbys são jogar videogame e sair para festas com seus amigos, onde costuma gastar boa parte de seu dinheiro, sendo a fonte maioral de seus gastos. Além disso possui um carro, que é sua segunda maior fonte de gastos. Seu maior sonho é comprar um apartamento, o que poderia ter conquistado se tivesse controle maior sobre seus gastos. </p>
+                </div>
+                <table class="table">
+                  <thead>
+                      <tr>
+                          <th scope="col">EU COMO<code>Persona usuário(a)</code></th>
+                          <th scope="col">QUERO/PRECISO<code>Que o site funcione como ferramenta prática que possa ser encaixado na minha rotina.</code></th>
+                          <th scope="col">PARA<code>Que assim eu consiga ter controle sobre meus gastos e ganhos, consiga ter meus impulsos dominados e gastar menos para realizar meus sonhos.></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row">Usuário do sistema</th>
+                          <td>Registrar meus gastos<span class="exemplo">EXEMPLO</span></td>
+                          <td>Ver onde estou gastando mais</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Administrador</th>
+                          <td>Alterar permissões<span class="exemplo">EXEMPLO</span></td>
+                          <td>Permitir que possam administrar contas</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </section>
+
+              <section>
+                <h5>Requisitos</h5>
+                <p>As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseRequisitos">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseRequisitos">
+                  <p>Com base nas Histórias de Usuário, enumere os requisitos da sua
+                    solução. Classifique esses requisitos em dois grupos:</p>
+                  <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Requisito_funcional">Requisitos Funcionais (RF)</a>:
+                      correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).</li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional">Requisitos Não Funcionais (RNF)</a>: correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).</li>
+                  </ul>
+
+                  <p>Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.</p>
+                </div>
+
+                <p><strong>Requisitos Funcionais</strong></p>
+                <table class="table">
+                  <thead>
+                      <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Descrição do Requisito</th>
+                          <th scope="col">Prioridade</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row">RF-001</th>
+                          <td>Permitir que o usuário cadastre seu extrato bancário<span class="exemplo">EXEMPLO</span></td>
+                          <td>ALTA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-002</th>
+                          <td>Emitir um relatório de gastos mensais a partir do extrato, além de um mapeameto dos gastos, para que um pop-up seja ativado para bloquear compras desnecessárias.<span class="exemplo">EXEMPLO</span></td>
+                          <td>MÉDIA</td>
+                      </tr>
+                  </tbody>
+                </table>
+
+                <p><strong>Requisitos Não-Funcionais</strong></p>
+                <table class="table">
+                  <thead>
+                      <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Descrição do Requisito</th>
+                          <th scope="col">Prioridade</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row">RNF-001</th>
+                          <td>O sistema deve ser responsivo para rodar em um dispositivos móvel<span class="exemplo">EXEMPLO</span></td>
+                          <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RNF-002</th>
+                          <td>Deve processar requisições do usuário em no máximo 3s<span class="exemplo">EXEMPLO</span></td>
+                          <td>BAIXA</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </section>
+            </section>
+
+            <section id="ti_projeto_interfaces">
+              <h4>Projeto de Interface</h4>
+              <p>Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseInterface">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseInterface">
+                <p>Apresente a ideia de interface que está sendo prevista para o projeto. Inclua os wireframes, o user/screen flow e o protótipo interativo.</p>
+              </div>
+
+              <section>
+                <h5>User/Screen Flow e Protótipo interativo</h5>
+                <p>Artefatos relacionados com a interface e a interacão do usuário na solução proposta.
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseUserFlow">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseUserFlow">
+                  <p>O fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe. <img  class="img-fluid" src="assets/images/exemplo-userflow.png" alt="Exemplo de fluxo de usuário">
+                  </p>
+                  <p>Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Veja o exemplo a seguir.<br>
+                    <iframe title="Protótipo interativo" src="https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false" width="600px" height="360px" allowtransparency="true" frameborder="0"></iframe>
+                  </p>
+                </div>
+                <p><a>href:"Bloqueio.2.pdf"</a> <a>href:"https://marvelapp.com/prototype/1ai13c3j"</p>
+              </section>
+
+              <section>
+                <h5>Wireframes</h5>
+                <p>Protótipo de telas do sistema em baixa fidelidade (rascunhos).
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseWireframes">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseWireframes">
+                  <p>Os Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface. <img  class="img-fluid" src="assets/images/exemplo-wireframe.png" alt="Exemplo de wireframe"></p>
+                </div>
+                <p><a>href:"mobile (3).pdf"</a></p>
+              </section>
+
+            </section>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Metodologia ============================ -->
+          <section id="ti_metodologia">
+            <h2>Metodologia</h2>
+            <p class="lead">Detalhes sobre a organização do grupo e o ferramental empregado.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseMetodologia">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert"  id="collapseMetodologia">
+              <p> A metodologia adotada por nosso grupo foi o Framework Scrum, dividimos as tarefas entre o grupo, fizemos reuniões diárias e sempre mantivemos contato por um grupo no Whatsapp e servidor no Discord. A comunicação durante esse processo foi crucial para gestão das tarefas e um resultado satisfatório. Ferramentas empregadas: Miro, Figma, Marvelapp, excalidraw, PowerPoint, vscode, GitHub. Divisão de tarefas: Gabrielly:Wireframe / GitHub; Kayky:User flor / GitHub; Otavio:Protótipo interativo / Slides; Guilherme:Miro/documentação do projeto.
+              <p>Nesta Sprint (1), o projeto foi documentado, identicamos nossas personas e baseamos a estrutura de dados do software nas demandas dos mesmos. Foi criado um wireframe e protótipos interativos para vizualição do projeto.</p>
+            </div>
+
+            <section>
+              <h4 id="ti_ferramentas">Ferramentas</h4>
+              <p>Relação de ferramentas empregadas pelo grupo durante o projeto./
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFerramentas">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseFerramentas">
+                <p>Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, ferramentas de comunicação, ferramentas de diagramação, plataformas de hospedagem, entre outras.</p>
+              </div>
+              <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Ambiente</th>
+                        <th scope="col">Plataforma</th>
+                        <th scope="col">Link de Acesso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Processo de Design Thinking</td>
+                        <td>Miro</td>
+                        <td><a href="https://miro.com">https://miro.com/app/board/uXjVKdBzZD8=/</a><span class="exemplo"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Repositório de código</td>
+                        <td>GitHub</td>
+                        <td><a href="https://github.com/orgs/ICEI-PUC-Minas-PMGCC-TI/teams/g6-descontrole-financeiro">github</a><span class="exemplo"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Hospedagem do site</td>
+                        <td>Heroku</td>
+                        <td><a href="https://XXXXXXX.herokuapp.com">https://XXXXXXX.herokuapp.com</a><span class="">EXEMPLO</span></td>
+                    </tr>
+                    <tr>
+                        <td>Protótipo Interativo</td>
+                        <td>MavelApp ou Figma</td>
+                        <td><a href="https://marvelapp.com/prototype/1ai13c3j">Para celular </a><span class="exemplo"></span></td>
+                   
+                    <td><a href="https://marvelapp.com/prototype/10c157ca/screen/94433152">Para Pc</a><span class="exemplo"></span></td>
+                </td>
+             </tr>
+                     <tr>
+                        <td>Comunicação</td>
+                        <td>Discord ou Whatsapp</td>
+                        <td><a href:"https://discord.com/ href:https://web.whatsapp.com/</a><span class="exemplo"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Wireframe</td>
+                        <td>Excalidraw</td>
+                        <td><a href="https://excalidraw.com/#json=w6p1LDnJZoaqaD3GT98RB,00uZNzfQsOdEWSoFUlY0Kw">Wireframe</a><span class=""></span></td>
+                    </tr>
+                    </tr>
+                  
+                </tbody>
+              </table>
+            </section>
+
+            <section id="ti_gestao_projeto">
+              <h4>Gestão do Projeto</h4>
+              <p>Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapsePapeis">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapsePapeis">
+                <p>Apresente a divisão de papéis e tarefas entre os membros do grupo. Informe quem é o Scrum Master, o Product Owner e os desenvolvedores. Informe também quem é o responsável pela documentação do projeto.</p>
+                <p> Gabrielly: wireframe/ GitHub
+                    Kayky: User flow/ GitHub
+                    Guilherme: Miro / Documentação do projeto
+                    Otavio: Protótipo interativo / Slides
+                </p>
+              </div>
+              <p>Todos foram scrum master, Project Owner.</p>
+            </section>
+
+
+            <section id="ti_controle_versao">
+              <h4>Controle de Versão</h4>
+              <p>Estrutura do fluxo de trabalho no ambiente do GitHub.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseVersao">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseVersao">
+                <p>Discuta como a configuração do projeto foi feita na ferramenta de versionamento (GitHub). Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.<br>
+                  <img class="img-fluid" src="assets/images/exemplo-workflow.png" alt="">
+                </p>
+              </div>
+              <p>......  COLOQUE AQUI O SEU TEXTO ......</p>
+            </section>
+          </section>
+          <hr class="divider">
+
+          <!-- Funcionalidades ==================== -->
+          <section id="ti_solucao">
+            <h2>Solução</h2>
+            <p class="lead">Esta seção apresenta todos os detalhes da solução criada no projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseSolucao">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseSolucao">
+              <p>Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.</p>
+              <p>
+
+                Funcionalidades para Usuários:
+                
+                1. Bloqueios Personalizados: Os usuários podem ativar e personalizar pop-ups de alerta para controlar seus impulsos de gastos. Além disso, o controle de aplicativos permite bloquear compras indesejadas. O sistema também compara as compras atuais com a fatura do cartão do mês anterior, fornecendo insights sobre padrões de gastos.
+                
+                2. Assistência Profissional: Uma seção dedicada fornece conselhos de especialistas sobre a regularização de gastos. Se o estado emocional do usuário estiver instável, suporte psicológico estará disponível para ajudar a lidar com questões financeiras e emocionais.
+                
+                3. Metas Financeiras e Recompensas: Os usuários podem definir metas de gastos e receber recompensas por alcançá-las. Inspirado em sistemas de recompensa como o Duolingo, o aplicativo oferece "tokens" como incentivo para o controle financeiro eficaz.
+                
+                Funcionalidades para Administradores:
+                
+                1. Análise de Dados: Os administradores têm acesso a dados de uso da aplicação para entender melhor o comportamento dos usuários. Isso inclui informações sobre padrões de gastos, preferências de bloqueio e interações com o suporte psicológico.
+                
+                2. Gerenciamento de Conteúdo: Os administradores podem atualizar e personalizar o conteúdo da seção de assistência profissional com conselhos relevantes e recursos úteis para os usuários.
+                
+                3. Implementação de Recompensas: Os administradores têm a capacidade de ajustar e gerenciar o sistema de recompensas, garantindo que as metas financeiras incentivem comportamentos saudáveis de gastos entre os usuários.</p>
+            </div>
+
+            <section id="ti_video">
+              <h4>Video do Projeto</h4>
+              <p>O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseVideo">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseVideo">
+                <p>O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.</p>
+                <p>Utilize o recurso de compartilhamento via embed e inclua o vídeo logo abaixo.</p>
+              </div>
+              <p>......  COLOQUE AQUI O SEU VIDEO ......</p>
+            </section>
+
+            <section id="ti_funcionalidades">
+              <h4>Funcionalidades</h4>
+              <p>Esta seção apresenta as funcionalidades da solução.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFuncionalidades">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseFuncionalidades">
+                <p>(1)Cadastro de perfil. (2)Envio do extrato bancário. (3)Configurações. (4)Metas. (5)Conquistas. (6) Profissionais. (7)Gráfico. (8)Sugestão de conteúdo. (9)Atenção</p>
+                <p>Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.</p>
+              </div>
+
+              <section>
+                <h5>Funcionalidade 1 - Cadastro de usuários<span class="exemplo">EXEMPLO</span></h5>
+                <p>Permite a inclusão, leitura, alteração e exclusão de dados pessoais para o sistema</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_cadastro">Contatos</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site pressione o menu, entre em perfil e efetue o login</li>
+                    <li>Coloque seu melhor email, sua senha e confirme a senha </li>
+                    <li>Em seguida, escolha a opção salvar</li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 2 - Envio do extrato bancário<span class="exemplo">EXEMPLO</span></h5>
+                <p>Permite a inclusão do extrato bancário, para leitura e utilizição dos dados em funcionalidades diversas</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_extratobancario">Extrato bancário</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site pressione o menu, entre em gastos</li>
+                    <li>Aperte o sinal de + </li>
+                    <li>Em seguida, suba seu arquivo pdf</li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 3 - Configurações<span class="exemplo">EXEMPLO</span></h5>
+                <p>Permite a alteração de elemtos estéticos do site</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_configurações">configurações</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site pressione o menu, entre em configurações</li>
+                    <li>Se quiser mudar a cor da sua tela então entre em aparência selecione sua cor</li>
+                    <li>Se quiser mudar o tamanho de sua tela então entre em telas e selecione o tamanho</li>
+                  <li>Se quiser ver as configurações do sistema então entre em sistema</li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 4 - Metas<span class="exemplo">EXEMPLO</span></h5>
+                <p>Permite a inclusão de abas de texto para metas</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_metas">metas</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site e entre em metas</li>
+                    <li>Entre no símbolo "+" </li>
+                    <li>Escreva sua nova meta</li>
+                    <li>Para repetir o processo, pressione novamente o símbolo "+"</li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 5 - Conquistas<span class="exemplo">EXEMPLO</span></h5>
+                <p>Permite a vizualição de conquistas, realização de metas</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_conquistas">Conquistas</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site pressione e entre em conquistas</li>
+                    <li>Vizualize suas conquistas e receba uma sugestão </li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 6 - Profissionais<span class="exemplo">EXEMPLO</span></h5>
+                <p>Permite acesso a contato de profissionais da área escolhida</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_profissionais">Profissionais</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site e entre em profissionais</li>
+                    <li>Receba a opção de profissionais de 3 áreas diferentes </li>
+                    <li>Em seguida, clique</li>
+                    <li>Escolha a forma de contato</li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 7 - Gráfico<span class="exemplo">EXEMPLO</span></h5>
+                <p>Receba acesso a um gráfico comparativo de seus gastos em relação aos meses anteriores</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_grafico">Gráfico</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site e role até o gráfico</li>
+                    <li>Veja sua evolução </li>
+                   </ul></li>
+
+                   <h5>Funcionalidade 8 - Sugestão de conteúdo<span class="exemplo">EXEMPLO</span></h5>
+                <p>Receba sugestões de conteúdos para aumentar seus conhecimentos</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_sugestao_de_conteudo">Sugestão de conteúdo</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site e role até sugestão de conteúdos</li>
+                    <li>Passe para o lado e veja as opções</li>
+                    <li>Em seguida, escolha uma opção, clique e será redirecionado para a página em questão</li>
+                  </ul></li>
+
+                  <h5>Funcionalidade 9 - Atenção<span class="exemplo">EXEMPLO</span></h5>
+                <p>Veja se é o público alvo do software e receba dicas para compras conscientes</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_atencao">Atenção</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site e entre no símbolo atenção</li>
+                    <li>Escolha qual informativo te interessa</li>
+                    <li>Em seguida, clique e aproveite</li>
+                  </ul></li>
+
+                </ul>
+                <p class="text-center"><img class="img-fluid" src="assets/images/exemplo-funcionalidade.png" alt="Tela Cadastro de Contatos"></p>
+              </section>
+            </section>
+
+            <!-- Estruturas de dados =============== -->
+            <section id="ti_estruturas_dados">
+              <h4>Estruturas de Dados</h4>
+              <p>Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseEstruturas">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseEstruturas">
+                <p>Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração</p>
+                <p>Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.</p>
+              </div>
+
+              <section>
+                <h5>Estrutura de Dados - Saldo e fatura<span class="exemplo">EXEMPLO</span></h5>
+                <p>Mostra o saldo bancário e a fatura do cartão de crédito do usuário obtida pelo extrato subido pelo usuário na sessão de gastos</p>
+                <pre>
+                  {
+                    "Fatura:R$2000,00
+                    Saldo:R$2500,00"
+                  }
+                </pre>
+              </section>
+
+              <section>
+                <h5>Estrutura de Dados - Atenção<span class="exemplo">EXEMPLO</span></h5>
+                <p>Apresentação de conceitos e direcionamento do público alvo</p>
+                <pre>
+                  {
+                    "O que é descontrole financeiro?
+                    Descontrole financeiro acontece quando uma pessoa não é capaz de controlar seus gastos pessoais e corre o risco de ficar endividada.
+                    Sua compra realmente é necessária?
+                    Você precisa de realizar essa compra, ou você apenas deseja. Venha aprender identificar se sua compra realmente é necessária. Possui um modelo antigo, mas que ainda funcione deste mesmo produto? A vontade surgiu porque viu alguma influência na mídia utilizando/divulgando este produto? Está em um momento de crise e/ou ansiedade? Se sua resposta foi sim para alguma dessas perguntas é melhor esperar e repensar um pouco essa compra."
+                  }
+                </pre>
+              </section>
+
+              <section>
+                <h5>Estrutura de Dados - Metas<span class="exemplo">EXEMPLO</span></h5>
+                <p>Usuário adiciona suas metas em formato de texto</p>
+                <pre>
+                  {
+                    "Suas metas:
+                    Comprar um carro;
+                    Comprar um apartamento;
+                    Viajar para o exterior;
+                    + (indicando a possibilidade de abrir uma nova caixa de texto)"
+                  }
+                </pre>
+              </section>
+              <section>
+                <h5>Estrutura de Dados - Profissionais<span class="exemplo">EXEMPLO</span></h5>
+                <p>Usuário acessa contatos de profissionais de acordo com suas necessidades</p>
+                <pre>
+                  {
+                   "Profissional de psicologia 
+                   Telefones
+                   Canais de atendimento
+                   Sites"
+                   "Profissionais de finanças
+                   Telefones
+                   Canais de atendimento
+                   Sites"
+                   "Conselhos de administradores
+                   Sites
+                   Canais de atendimento"
+                  }
+                </pre>
+              </section>
+              <section>
+                <h5>Estrutura de Dados - Menu de acesso<span class="exemplo">EXEMPLO</span></h5>
+                <p>Hospeda o perfil: informações pessoais do usuário e página de login, conquistas: parabenização de metas cumpridas, configurações: mudanças na tela e gastos do usuário: extrato bancário e balanceamento</p>
+                <pre>
+                  {
+                    "Perfil
+                    Foto de perfil 
+                    Nome do usuário
+                    Idade do Usuário
+                    Informações complementares do usuário
+                    Botão editar perfil
+                    "Editar perfil
+                    Alterar foto de perfil: usuário sobe outra foto de perfil
+                    Alterar Nome: usuário digita nome
+                    Alterar email: usuário digita email
+                    Alterar senha: usuário digita nova senha
+                    Confirmação de nova senha: nova senha é verificada 
+                    Alteração de informações complementares do usuário: usuário altera informações pessoais
+                    Botão salvar: usuário salva alterações"
+                    "
+                    "Conquistas
+                    "Parabéns, você gastou R$200,00 a menos do que no mês anterior"
+                    "Parabéns, você pagou a última parcela da compra em uma loja x"
+                    "
+                    "Configurações
+                    Aparencia: modifica cor do site
+                    Tela: modifica tamanho da tela
+                    Sistema: mostra versão do sistema e funcionalidade
+                    "
+                    "Gastos
+                    Insira aqui o seu extrato bancário: Usuário envia arquivo
+                    balanceamento de gastos: site faz uma subtração entre ganhos e gastos"
+                  }
+                </pre>
+              </section>
+              <section>
+                <h5>Estrutura de Dados - Mensagem motivacional<span class="exemplo">EXEMPLO</span></h5>
+                <p>Aplicativo exibe uma frase para motivar o usuário</p>
+                <pre>
+                  {
+                    "Uma jornada de mil quilômetros deve começar com um passo"
+                  }
+                </pre>
+              </section>
+              <section>
+                <h5>Estrutura de Dados - Gráfico comparativp de gastos<span class="exemplo">EXEMPLO</span></h5>
+                <p>Site pega informações dos extratos bancários adicionados pelo usuário e gera um gráfico comparativo</p>
+                <pre>
+                  {
+                    "Gráficos de colunas fazendo comparativos sempre com o mês anterior"
+                  }
+                </pre>
+              </section>
+              <section>
+                <h5>Estrutura de Dados - Carrosel com sugestão de conteúdos de educação financeira<span class="exemplo">EXEMPLO</span></h5>
+                <p>Artigos, vídeos, livros que influencie o usuário a buscar mais informações sobre o problema</p>
+                <pre>
+                  {
+                "Slide 1: vídeo de investimentos no youtube
+                Slide 2: Indicação de livros de finanças
+                Slide 3: Indicação de pesquisa sobre descontrole financeiro"
+                  }
+                </pre>
+              </section>
+              <section>
+                <h5>Estrutura de Dados - Rodapé<span class="exemplo">EXEMPLO</span></h5>
+                <p>Rodapé possuindo nome do site, ano de criação, contato dos criadores do site, atalho para página inicial</p>
+                <pre>
+                  {
+                    "@2024      (DE$)_controle
+                              Página inicial    Contato"
+                  }
+                </pre>
+              </section>
+            </section>
+
+            <!-- Módulos e APIs ================= -->
+            <section id="ti_modulos_apis">
+              <h4>Módulos e APIs</h4>
+              <p>Esta seção apresenta os módulos e APIs utilizados na solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseModulos">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseModulos">
+                <p>Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) Frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.</p>
+              </div>
+
+              <section>
+                <h5>Images:</h5>
+                <ul>
+                  <li>Unsplash - <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a><span class="exemplo">EXEMPLO</span></li>
+                </ul>
+              </section>
+
+              <section>
+                <h5>Fonts:</h5>
+                <ul>
+                  <li>Icons Font Face - <a target="_blank" href="https://fontawesome.com/">https://fontawesome.com/</a><span class="exemplo">EXEMPLO</span></li>
+                </ul>
+              </section>
+
+              <section>
+                <h5>Scripts:</h5>
+                <ul>
+                  <li>jQuery - <a target="_blank" href="http://www.jquery.com/">http://www.jquery.com/</a><span class="exemplo">EXEMPLO</span></li>
+                  <li>Bootstrap 4 - <a target="_blank" href="http://getbootstrap.com/">http://getbootstrap.com/</a><span class="exemplo">EXEMPLO</span></li>
+                </ul>
+              </section>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- FAQ ============================ -->
+          <section id="ti_faq">
+            <h2>FAQ</h2>
+            <p class="lead">Perguntas e respostas comuns associadas ao projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFAQ">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseFAQ">
+              <p>Apresente uma lista de perguntas e respostas comuns associadas ao projeto. Inclua perguntas como: (1) detalhes de acesso e uso do projeto; (2) informações sobre a instalação e configuração da aplicação; (3) questões sobre a manutenção da aplicação; (4) detalhes sobre a integração da aplicação com outros sistemas; (5) questões sobre a segurança da aplicação.</p>
+            </div>
+
+            <span class="exemplo">EXEMPLO</span>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+                  <div class="card">
+                    <div class="card-header" id="heading1">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1"
+                          aria-expanded="false" aria-controls="collapse1">What does royalty free mean?</a> </h5>
+                    </div>
+                    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                      <div class="card-body"> Claro, aqui estão as respostas resumidas em tópicos:
+
+                        1. **Detalhes de acesso e uso do projeto:**
+                           - A aplicação pode ser acessada por meio do download do aplicativo ou pelo site oficial.
+                           - O acesso é feito criando uma conta na plataforma.
+                        
+                        2. **Informações sobre instalação e configuração:**
+                           - A instalação é feita seguindo as instruções fornecidas pela loja de aplicativos.
+                           - A configuração envolve fornecer informações básicas e definir preferências de bloqueio de gastos.
+                        
+                        3. **Questões sobre a manutenção da aplicação:**
+                           - As atualizações automáticas podem ser configuradas nas configurações do dispositivo.
+                           - Suporte técnico está disponível para resolver problemas de uso.
+                           - Atualizações são lançadas regularmente para melhorar a aplicação.
+                        
+                        4. **Detalhes sobre integração com outros sistemas:**
+                           - A aplicação pode ser integrada com contas bancárias e sistemas de pagamento.
+                           - Isso proporciona uma visão abrangente dos gastos e permite bloqueios de transações indesejadas.
+                        
+                        5. **Questões sobre segurança da aplicação:**
+                           - Os dados financeiros são protegidos com criptografia de ponta a ponta e autenticação multifatorial.
+                           - Informações pessoais são armazenadas de forma segura e não são compartilhadas sem permissão.
+                           - Políticas de privacidade e segurança estão disponíveis para revisão.. </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading2">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2"
+                          aria-expanded="false" aria-controls="collapse2">What is a single application?</a> </h5>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                      <div class="card-body"> Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life
+                        accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                        proident. Ad vegan excepteur butcher vice lomo. </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading3">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3"
+                          aria-expanded="false" aria-controls="collapse3">What are some examples of permitted end
+                          products?</a> </h5>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                      <div class="card-body"> Iisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                        essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna
+                        imperdiet. </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Referências Bibliográficas ================= -->
+          <section id="ti_referencias">
+            <h2>Referências Bibliográficas</h2>
+            <p class="lead">Esta seção apresenta as referências bibliográficas utilizadas no projeto.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseReferencias">Info</button></p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseReferencias">
+              <p>Apresente as referências bibliográficas utilizadas no projeto. Inclua itens como: (1) livros, artigos, tutoriais, etc. utilizados no desenvolvimento da solução; (2) links para sites, blogs, etc. utilizados no desenvolvimento da solução.</p>
+            </div>
+            <p>
+            Descontrole financeiro: o que causa e como evitar. Serasa, 2021. Disponível em:https://www.serasa.com.br/score/blog/como-sair-do-descontrole-financeiro-e-manter-as-financas-em-dia/#:~:text=Esta%20situa%C3%A7%C3%A3o%20acontece%20quando%20uma,pessoas%20podem%20estar%20nessa%20situa%C3%A7%C3%A3o.
+            Kyosaki, Robert. Pai rico pai pobre. Edição 20 anos atualizada. Editora alta books, 1997.
+            Sinais de alerta de descontrole financeiro. Como resolver?. Banco BV, 2022. Disponível em: https://www.bv.com.br/bv-inspira/orientacao-financeira/sinais-de-alerta-para-o-desequilibrio-financeiro.
+            Descontrole financeiro x Saúde emocional. Tem relação?. Previsc, 2022. Disponível em: https://web.previsc.com.br/descontrole-financeiro-x-saude-emocional-tem-relacao/
+            </p>
+          </section>
+
+        </div>
+      </div>
+    <!-- Content end -->
+    </main>
+
+    <!-- Footer
+  ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+      <div class="container">
+        <p class="text-center"><strong>Trabalho Interdisciplinar - ICEI PUC Minas</strong><br>Modelo adaptado de <a
+            href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a>  - Design &amp; Develop by <a class="btn-link" target="_blank"
+            href="http://www.harnishdesign.net/">HarnishDesign</a></p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Document Wrapper end -->
+  </div>
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Topo" href="javascript:void(0)"><i
+        class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript ============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
