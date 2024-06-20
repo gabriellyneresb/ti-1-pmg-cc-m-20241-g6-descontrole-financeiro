@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Metas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="pagin"><img src="1216.png" alt="voltar para pagina inicial" width="60px"></div>
+  <div class="title">POTENCIALIZE SEUS OBJETIVOS AQUI</div>
+  <div class="container">
+    <div class="meta-list">
+      <h2>Suas metas:</h2>
+      <label for="category-select">Escolha a pasta:</label>
+      <select id="category-select" onchange="renderMetas()"></select>
+      <ul id="meta-ul"></ul>
+    </div>
+    <div class="add-meta">
+      <h2>Adicionar nova meta</h2>
+      <input type="text" id="new-meta-input" placeholder="Digite o valor a ser economizado">
+      <button onclick="addMeta()">Adicionar</button>
+      <input type="text" id="new-category-input" placeholder="Nova pasta">
+      <button onclick="addCategory()">Adicionar Pasta</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

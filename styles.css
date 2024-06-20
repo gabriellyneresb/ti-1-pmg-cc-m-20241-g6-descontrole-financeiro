@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('Captura%20de%20tela%202024-05-17%20161956.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 1em;
+}
+
+.meta-list, .add-meta {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  border-radius: 0.5em;
+  color: white;
+  margin-bottom: 1em;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.meta-list h2, .add-meta h2 {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.meta-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meta-list select, .meta-list option {
+  background-color: white;
+  color: rgb(40, 39, 39);
+}
+
+.add-meta input[type="text"], .add-meta button, .meta-list select {
+  width: calc(100% - 2em);
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  border: none;
+}
+
+.add-meta button, .meta-item button {
+  width: auto;
+  padding: 0.5em 1em;
+  background-color: #266518;
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.meta-item {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-item button {
+  margin-left: 0.5em;
+}
+
+.meta-item input[type="text"] {
+  display: none;
+  width: 5em;
+  margin-right: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .meta-list, .add-meta {
+    width: 48%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+.meta-list select {
+  margin-bottom: 0.5em;
+}
+
+.pagin {
+  align-self: flex-start;
+  margin: 1em;
+}
+
+.pagin img {
+  width: 60px;
+}
+
+  
