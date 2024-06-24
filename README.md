@@ -1,7 +1,5 @@
 # Nome do projeto
-
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
-
+Projeto se trata de um software para auxiliar pessoas com descontrole finaceiro retormar o domínio de suas finanças. Conta com gráficos de despesas, para que o usuário consiga visualizar seus gastos. Além de possibilidade de adicionar metas, chat de dúvidas, contatos de profissionais mais próximos, frases motivacionais e conteúdo informativo. 
 ## Alunos integrantes da equipe
 
 * Kayky Gabriel Marques
